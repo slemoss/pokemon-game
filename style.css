@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,500;1,900&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;       /* %*/
+    height: 100%;
+}
+
+body{
+    background-color: #411212;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    color: #ffd900;
+    text-shadow: 1px 2px 1px black;
+    
+}
+
+hr{
+    margin: 10px 0;
+    border-top: 3px solid #bbca;
+}
+.container{
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(179, 176, 173);
+    max-width: 450px;
+    min-height: 300px;
+}
+
+.imagem, #imgPokemon{
+    text-align: center;
+
+}
+.imagem img{
+    width: 90%;
+}
+
+.group-form{
+    padding: 5px 0;
+}
+.group-form label{
+    font-weight: 900;
+    color: #4e76ce;
+    text-shadow: 1px 2px 1px black;
+}
+
+.group-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    font-family: Poppins;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.group-form input[type=submit]{
+    background-color: #3059b1;
+    font-weight: 900;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#imgPokemon img{
+    width: 90px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+    margin: 10px;
+}
+#content {
+    font: monospace;
+    padding: 10px;
+    background-color: #ffd900;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #333;
+}
